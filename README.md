@@ -30,7 +30,7 @@ https://github.com/epfml/sent2vec/blob/master/README.md#downloading-sent2vec-pre
 ### Create Object
 The main class name is Summarization here. To create an object of this class, just create an object: 
 
-'summary=SUmmarization(arg_list)'
+'summary=Summarization(arg_list)'
 
 #### Possible argument lists:
 
