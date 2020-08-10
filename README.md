@@ -7,14 +7,18 @@ To install the necessary tools:
 run this commands to setup the fast text:
 
 `$ cd sent2vec`
+
 `$ sudo make`
+
 `$ pip3 install .`
 
 you have to install the nltk packages. For that run the following commands:
 
-'$ python3'
-'>>> import nltk'
-'>>> nltk.download()'
+`$ python3`
+
+`>>> import nltk`
+
+`>>> nltk.download()`
 
 Select all and download.
 
@@ -30,7 +34,7 @@ https://github.com/epfml/sent2vec/blob/master/README.md#downloading-sent2vec-pre
 ### Create Object
 The main class name is Summarization here. To create an object of this class, just create an object: 
 
-'summary=Summarization(arg_list)'
+`summary=Summarization(arg_list)`
 
 #### Possible argument lists:
 
@@ -63,28 +67,27 @@ Optional arguments:
 
 ### Ranking the sentences based on keyword: 
 Call the function by using the following function call:
-'summary.rank_sentences_for_keywords()'
+`summary.rank_sentences_for_keywords()`
 
 ### Ranking Sentences based on the similarity with the query: 
 For this one, you can either use fasttext or TF_IDF
 
 For fasttext call the following function:
-'summary.rank_sentences_for_similarity_fasttext()'
+`summary.rank_sentences_for_similarity_fasttext()`
 
 For TF_IDF call the following function:
-'summary.rank_sentences_for_similarity_TF_IDF()'
+`summary.rank_sentences_for_similarity_TF_IDF()`
 
 ### Clustering the sentences: 
 
 To cluster the sentences call the following function: 
 
-'summary.cluster_sentences()'
+`summary.cluster_sentences()`
 
 ### Generating the Summary:
 
 finally to get the summary call the following function: 
-'print (summary.generate_summary())'
-
+`print (summary.generate_summary())`
 
 
 
