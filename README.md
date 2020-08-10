@@ -45,12 +45,12 @@ The main class name is Summarization here. To create an object of this class, ju
 
 Optional arguments:
 	
-	threshold= any decimal value between 0 to 1. This value will be used to 	compare between two sentences and if they achieve more similarity score than
-	the provided threshold, they will go into the same cluster. default value 		is .2 here.
+	threshold= any decimal value between 0 to 1. This value will be used to compare between two sentences and if they achieve more similarity score than
+	the provided threshold, they will go into the same cluster. default value is .2 here.
 
-	alpha= any decimal value between 0 to 1. Default value is .09
+	alpha = any decimal value between 0 to 1. Default value is .09
 
-	beta= any decimal value between 0 to 1. Default value is .9
+	beta = any decimal value between 0 to 1. Default value is .9
 
 	I have used the following formula for sentence ranking: alpha*score1+beta*score2
 	where score1=sentence_score_based_on_keywords
@@ -58,9 +58,9 @@ Optional arguments:
 	
 	also the summation of alpha and beta should be less than 1.
 
-	length= any int value. This will be the maximum length limit of the summary. 		Default value is 5000 characters.
+	length= any int value. This will be the maximum length limit of the summary. Default value is 5000 characters.
 
-	length_percent= this is the summary length limit compared to the source 	document length. Default value is 50%.
+	length_percent= this is the summary length limit compared to the source document length. Default value is 50%.
 
 	if you provide both the length and length percent, the code will consider the lower one.
 
