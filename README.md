@@ -34,7 +34,7 @@ https://github.com/epfml/sent2vec/blob/master/README.md#downloading-sent2vec-pre
 ### Create Object
 The main class name is Summarization here. To create an object of this class, just create an object: 
 
-`summary=Summarization(arg_list)`
+`summary = Summarization(arg_list)`
 
 #### Possible argument lists:
 
@@ -52,15 +52,15 @@ Optional arguments:
 
 	beta = any decimal value between 0 to 1. Default value is .9
 
-	I have used the following formula for sentence ranking: alpha*score1+beta*score2
-	where score1=sentence_score_based_on_keywords
-	and score2=sentence_similarity_score_with_respect_to_query
+	I have used the following formula for sentence ranking: alpha * score1 + beta * score2
+	where score1 = sentence_score_based_on_keywords
+	and score2 = sentence_similarity_score_with_respect_to_query
 	
 	also the summation of alpha and beta should be less than 1.
 
-	length= any int value. This will be the maximum length limit of the summary. Default value is 5000 characters.
+	length = any int value. This will be the maximum length limit of the summary. Default value is 5000 characters.
 
-	length_percent= this is the summary length limit compared to the source document length. Default value is 50%.
+	length_percent = this is the summary length limit compared to the source document length. Default value is 50%.
 
 	if you provide both the length and length percent, the code will consider the lower one.
 
