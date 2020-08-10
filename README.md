@@ -6,9 +6,9 @@ To install the necessary tools:
 
 run this commands to setup the fast text:
 
-'$ cd sent2vec'
-'$ sudo make'
-'$ pip3 install .'
+`$ cd sent2vec`
+`$ sudo make`
+`$ pip3 install .`
 
 you have to install the nltk packages. For that run the following commands:
 
