@@ -67,6 +67,7 @@ Optional arguments:
 
 ### Ranking the sentences based on keyword: 
 Call the function by using the following function call:
+
 `summary.rank_sentences_for_keywords()`
 
 ### Ranking Sentences based on the similarity with the query: 
