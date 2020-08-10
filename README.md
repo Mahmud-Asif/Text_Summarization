@@ -73,9 +73,11 @@ Call the function by using the following function call:
 For this one, you can either use fasttext or TF_IDF
 
 For fasttext call the following function:
+
 `summary.rank_sentences_for_similarity_fasttext()`
 
 For TF_IDF call the following function:
+
 `summary.rank_sentences_for_similarity_TF_IDF()`
 
 ### Clustering the sentences: 
@@ -87,6 +89,7 @@ To cluster the sentences call the following function:
 ### Generating the Summary:
 
 finally to get the summary call the following function: 
+
 `print (summary.generate_summary())`
 
 
