@@ -97,6 +97,11 @@ finally to get the summary call the following function:
 
 You can check the example of the function call from the main.py function.
 
+The Sen2vec model is taken from the following paper: 
+
+Matteo Pagliardini, Prakhar Gupta, Martin Jaggi, [*Unsupervised Learning of Sentence Embeddings using Compositional n-Gram Features*](https://aclweb.org/anthology/N18-1049) NAACL 2018
+
+
 
 
 
